@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">skills</a></li>
+                    <li><a href="#">contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Manish</span><br>from India</h1>
+        </div>
+        <div>
+    </div>
+    <!-- ------------------------about---------------------  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+            <div class="about-col-1">
+                <img src="images/background.png">
+            </div>
+            <div class="about-col-2"></div>
+            <div class="about-left"></div>
+            <h1 class="sub-title">About Me</h1>
+                <p>Motivated and detal-oriented professional with proven skills in web development, design, and content creation.
+                    Experienced in HTML, CSS, and JavaScript, with a strong portfolio of responsive websites and landing pages.
+                    Known for creative problem-solving, teamwork, and a commitment to delivering high-quality work on time.
+                    Passionate about continuous learning.</p>
+                
+    <!-- -----------skills----------------------------  -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <p>web development, design, and content creation.</p>
+        </div>
+    <!---------------Contact--------------------------->    
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>manishoraon336@gmail.com</p>  
+                <p>9263362530</p> 
+                <div class="spcial-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+
+                </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"></button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<script>
+
+    var tablinks = document.grtElementsClassName("tab-links");
+    var tabcontents = document.grtElementsClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontents of tablinks){
+            tabcontents.classlist.remove("active-tab");
+    }
+    event.currentTarget.classlist.add("active-link");
+    document.getElementId(tabname).classlist.add("active-tab")
+    }
+</script>
+
+    
+</body>
+</html>
